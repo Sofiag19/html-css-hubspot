@@ -255,9 +255,11 @@
 
       .libro a {
         color: white;
-        padding: 5% 5%;
+        padding: 2% 5%;
         background-color: rgb(255, 122, 89);
         border-radius: 2px;
+        font-size: 8px;
+        text-decoration: none;
       }
 
     .free100 {
@@ -338,10 +340,12 @@
       .bolle a,
       .ufficio  a,
       .connessione  a {
-        text-decoration: none;
         color: white;
+        padding: 2% 5%;
         background-color: rgb(255, 122, 89);
-        padding: 5% 5%;
+        border-radius: 2px;
+        font-size: 8px;
+        text-decoration: none;
       }
 
 /* section caratteristiche */
@@ -435,6 +439,8 @@
   margin: 0 auto;
 }
 
+  /* blocco customer */
+
   .customer {
     width: 100%;
     margin: 0 auto;
@@ -466,9 +472,52 @@
       background-image: url("../img/shopify1.png");
     }
 
-  /* blocco customer */
-
   /* blocco start */
+  .start {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .start::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .starttoday {
+      float: left;
+      width: 50%;
+      color: rgb(51,71,91);
+      font-size: 8px;
+    }
+
+    .starttoday h2 {
+      font-size: 20px;
+    }
+
+    .starttoday p {
+      margin: 5% 0;
+    }
+
+    .starttoday a {
+      color: white;
+      text-decoration: none;
+      background-color: rgb(255, 122, 89);
+      padding: 3% 3%;
+      border-radius: 3px;
+    }
+
+    .foto {
+      float: left;
+      width: 50%;
+      text-align: center;
+    }
+
+      .foto img {
+        height: 40vh;
+        background-color: rgb(242, 84, 125);
+        border-radius: 50%;
+      }
 
 /* footer */
 
