@@ -129,7 +129,77 @@
 
   /* barra3 */
 
+  .barra3 {
+    width: 100%;
+  }
+
+  .barra3::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .logoesteso {
+      float: left;
+      width: 10%;
+      margin-left: 20%;
+      margin-right: 30%;
+    }
+
+    .menu {
+      float: right;
+      list-style-type: none;
+      font-size: 8px;
+      width: 20%;
+      margin-right: 20%;
+    }
+
+    .menu::after {
+      content:"";
+      display: table;
+      clear: both;
+    }
+
+      .menu li {
+        float: left;
+        color: rgb(51,71,91);
+      }
+
 /* section presentazione */
+
+.presentazione {
+  background-image: url("../img/Sfondo.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+  .titolo {
+    width: 30%;
+    margin-left: 20%;
+    color: rgb(51,71,91);
+    padding-top: 5%;
+  }
+
+    .titolo h1 {
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .titolo p {
+      font-size: 8px;
+      margin: 5% 0;
+    }
+
+    .titolo a {
+      color: rgb(51,71,91);
+      padding: 5% 5%;
+      background-color: lightblue;
+      font-size: 10px;
+      text-decoration: none;
+      border-radius: 2px;
+    }
+
 
 /* section servizi */
 
