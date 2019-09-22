@@ -7,9 +7,125 @@
 
 /* header */
 
+.header {
+  width: 100%;
+}
+
   /* barra1 */
 
+  .barra1 {
+    width: 100%;
+    background-color: rgb(51,71,91);
+  }
+
+  .barra1::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .elencologo {
+      float: left;
+      width: 40% ;
+      margin-left: 10%;
+      margin-right: 25%;
+      list-style-type: none;
+      font-size: 8px;
+      color: white;
+      text-align: center;
+    }
+
+    .elencologo::after {
+      content: "";
+      display: table;;
+      clear: both;
+    }
+
+      .elencologo li {
+        float: left;
+        width: 20%;
+      }
+
+        .elencologo li img {
+          width: 40%;
+        }
+
+    .login {
+      float: right;
+      width: 15% ;
+      margin-right: 10%;
+      list-style-type: none;
+      font-size: 8px;
+      text-align: center;
+    }
+
+    .login::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+      .login li {
+        float: left;
+        width: 25%;
+      }
+
+      #nome {
+        color: white;
+      }
+
+      /* capire come abbassare le scritte */
+
   /* barra2 */
+
+  .barra2 {
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+  }
+
+  .barra2::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .english-sales {
+      float: left;
+      margin-left: 20%;
+      color: rgb(51,71,91);
+      list-style-type: none;
+      width: 30%;
+      font-size: 8px;
+    }
+
+    .english-sales::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+      .english-sales li {
+        float: left;
+      }
+
+    .search{
+      float: right;
+      margin-right: 20%;
+      list-style-type: none;
+      width: 20%;
+      font-size: 8px;
+      text-align: right;
+    }
+
+
+
+        .search a {
+          color: white;
+          background-color: orange;
+          padding: 3% 5%;
+          text-decoration: none;
+          border: 1px solid black;
+        }
 
   /* barra3 */
 
