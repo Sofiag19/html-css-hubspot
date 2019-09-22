@@ -298,6 +298,7 @@
       color: rgb(51,71,91);
       height: 60vh;
       margin-bottom: 5vh;
+      padding: 2% 2%;
     }
 
     .ufficio {
@@ -415,9 +416,6 @@
         border-right: none;
       }
 
-
-
-
         .row div img {
           height: 5vh;
         }
@@ -432,6 +430,41 @@
 
 
 /* section growing */
+.growing {
+  width: 80%;
+  margin: 0 auto;
+}
+
+  .customer {
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(51,71,91);
+    padding: 5% 0;
+  }
+
+  .customer::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .numero {
+      float: left;
+      width: 30%;
+      margin-right: 15%;
+      font-size: 20px;
+    }
+
+      .numero p {
+        font-size: 8px;
+      }
+
+    .immagini {
+      float: left;
+      width: 55%;
+      height: 26vh;
+      background-image: url("../img/shopify1.png");
+    }
 
   /* blocco customer */
 
