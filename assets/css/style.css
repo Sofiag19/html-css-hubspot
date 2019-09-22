@@ -47,7 +47,7 @@
       }
 
         .elencologo li img {
-          width: 40%;
+          height: 5vh;
         }
 
     .login {
@@ -146,6 +146,10 @@
       margin-right: 30%;
     }
 
+      .logoesteso img {
+        height: 5vh;
+      }
+
     .menu {
       float: right;
       list-style-type: none;
@@ -202,12 +206,142 @@
 
 
 /* section servizi */
+.servizi {
+  width: 100%;
+  background-color: #f4f8fa;
+  text-align: center;
+  color: rgb(51,71,91);
+}
 
   /* blocco slogan */
+.slogan {
+  width: 65%;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+  .slogan img {
+    height: 30vh;
+  }
+
+  .slogan p {
+    font-size: 8px;
+  }
 
   /* blocco free */
+  .free {
+    width: 65%;
+    margin: 1% auto;
+    background-color: white;
+  }
+
+  .free::after {
+    content:"";
+    display: table;;
+    clear: both;
+  }
+
+    .libro {
+      float: left;
+      width: 40%;
+      text-align: center;
+    }
+
+      .libro img {
+        display: block;
+        margin: 0 auto;
+        height: 25vh;
+      }
+
+      .libro a {
+        color: white;
+        padding: 5% 5%;
+        background-color: rgb(255, 122, 89);
+        border-radius: 2px;
+      }
+
+    .free100 {
+      float: left;
+      width: 60%;
+      text-align: left;
+      font-size: 8px;
+    }
+
+    .free100 h3 {
+      font-weight: bold;
+      margin: 2% 0;
+    }
+
+    .free100 p .fas {
+      color: rgb(255, 122, 89);
+    }
 
   /* blocco MarketingHub */
+  .marketinghub {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 8px;
+  }
+
+  .marketinghub::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    .bolle,
+    .ufficio,
+    .connessione {
+      float: left;
+      width: 30%;
+      background-color: white;
+      color: rgb(51,71,91);
+      height: 60vh;
+      margin-bottom: 5vh;
+    }
+
+    .ufficio {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+      .bolle img,
+      .connessione img {
+        width: 15vh;
+      }
+
+      .ufficio img {
+        width: 20vh;
+      }
+
+      .bolle p,
+      .ufficio p,
+      .connessione p {
+        border-bottom: 1px solid black;
+      }
+
+
+      .bolle ul li,
+      .ufficio ul li,
+      .connessione ul li {
+        list-style-type: none;
+        text-align: left;
+      }
+
+      .bolle ul li .fas,
+      .ufficio ul li .fas,
+      .connessione ul li .fas {
+        color: rgb(255, 122, 89);
+      }
+
+      .bolle a,
+      .ufficio  a,
+      .connessione  a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(255, 122, 89);
+        padding: 5% 5%;
+      }
 
 /* section caratteristiche */
 
