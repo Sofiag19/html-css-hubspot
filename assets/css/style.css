@@ -34,7 +34,7 @@ header {
       margin-left: 10%;
       margin-right: 25%;
       list-style-type: none;
-      font-size: 8px;
+      font-size: 12px;
       color: white;
       text-align: center;
     }
@@ -60,7 +60,7 @@ header {
       width: 15% ;
       margin-right: 10%;
       list-style-type: none;
-      font-size: 8px;
+      font-size: 12px;
       text-align: center;
     }
 
@@ -94,11 +94,11 @@ header {
 
     .english-sales {
       float: left;
+      width: 30%;
       margin-left: 20%;
       color: rgb(51,71,91);
       list-style-type: none;
-      width: 30%;
-      font-size: 8px;
+      font-size: 12px;
       line-height: 40px;
     }
 
@@ -114,10 +114,10 @@ header {
 
     .search{
       float: right;
+      width: 20%;
       margin-right: 20%;
       list-style-type: none;
-      width: 20%;
-      font-size: 8px;
+      font-size: 12px;
       text-align: right;
     }
 
@@ -156,9 +156,9 @@ header {
 
     .menu {
       float: right;
-      list-style-type: none;
-      font-size: 8px;
       width: 20%;
+      list-style-type: none;
+      font-size: 12px;
       margin-right: 20%;
       line-height: 40px;
     }
@@ -196,7 +196,7 @@ header {
     }
 
     .titolo p {
-      font-size: 8px;
+      font-size: 12px;
       margin: 5% 0;
     }
 
@@ -204,7 +204,7 @@ header {
       color: rgb(51,71,91);
       padding: 3% 5%;
       background-color: lightblue;
-      font-size: 10px;
+      font-size: 16px;
       text-decoration: none;
       border-radius: 2px;
     }
@@ -223,6 +223,7 @@ header {
     width: 65%;
     margin: 0 auto;
     padding: 2% 0;
+    box-sizing: border-box;
   }
 
     .slogan img {
@@ -230,7 +231,7 @@ header {
     }
 
     .slogan p {
-      font-size: 8px;
+      font-size: 12px;
     }
 
   /* blocco free */
@@ -239,6 +240,7 @@ header {
     margin: 1% auto;
     background-color: white;
     border-radius: 3px;
+    box-sizing: border-box;
   }
 
   .free::after {
@@ -256,6 +258,7 @@ header {
       width: 40%;
       text-align: center;
       padding: 2% 2%;
+      box-sizing: border-box;
     }
 
       .libro img {
@@ -269,7 +272,7 @@ header {
         padding: 2% 5%;
         background-color: rgb(255, 122, 89);
         border-radius: 2px;
-        font-size: 8px;
+        font-size: 12px;
         text-decoration: none;
       }
 
@@ -277,7 +280,7 @@ header {
       float: left;
       width: 60%;
       text-align: left;
-      font-size: 8px;
+      font-size: 12px;
       line-height: 15px;
       padding: 5% 0;
     }
@@ -295,7 +298,7 @@ header {
   .marketinghub {
     width: 65%;
     margin: 0 auto;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .marketinghub::after {
@@ -321,8 +324,6 @@ header {
     .connessione:hover {
       transform: scale(1.01);
     }
-
-
 
     .ufficio {
       margin-left: 5%;
@@ -365,7 +366,7 @@ header {
           padding: 2% 5%;
           background-color: rgb(255, 122, 89);
           border-radius: 2px;
-          font-size: 8px;
+          font-size: 12px;
           text-decoration: none;
         }
 
@@ -381,13 +382,14 @@ header {
     width: 50%;
     color: white;
     margin: 0 auto;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 18px;
+    line-height: 20px;
     padding: 2% 0;
   }
 
     .testocaratt p {
-      font-size: 8px;
+      font-size: 12px;
+      margin-top: 2%;
     }
 
   /* tabella */
@@ -477,20 +479,30 @@ header {
     .numero {
       float: left;
       width: 30%;
-      margin-right: 15%;
-      font-size: 20px;
+      margin-right: 10%;
+      font-size: 24px;
     }
 
       .numero p {
-        font-size: 8px;
+        font-size: 12px;
       }
 
     .immagini {
       float: left;
-      width: 55%;
+      width: 60%;
       height: 26vh;
-      background-image: url("../img/shopify1.png");
     }
+
+      .esempi li {
+        float: left;
+        width: 22%;
+        margin-right: 3%;
+        list-style-type: none;
+      }
+
+        .esempi li img {
+          width: 110px;
+        }
 
   /* blocco start */
   .start {
@@ -508,12 +520,12 @@ header {
       float: left;
       width: 50%;
       color: rgb(51,71,91);
-      font-size: 8px;
+      font-size: 12px;
       padding: 5% 0;
     }
 
       .starttoday h2 {
-        font-size: 20px;
+        font-size: 24px;
       }
 
       .starttoday p {
@@ -544,7 +556,7 @@ header {
 footer {
   width: 100%;
   background-color: rgb(51, 71, 91);
-  font-size: 8px;
+  font-size: 12px;
   font-weight: lighter;
   color: rgb(116, 132, 148);
 }
@@ -569,22 +581,27 @@ footer {
       list-style-type: none;
     }
 
-      .increase li:first-of-type {
+      .increase li:first-of-type a{
         color: white;
       }
 
         .increase li a {
-          background-color: white;
-          color: rgb(51, 71, 91);
-          padding: 3% 8%;
-          border-radius: 3px;
           text-decoration: none;
-          font-size: 6px;
+          font-size: 10px;
+          color: rgb(116, 132, 148);
         }
 
       .margineneg {
         margin-left: -5%;
       }
+
+        .contact {
+          background-color: white;
+          color: rgb(51, 71, 91);
+          padding: 3% 8%;
+          border-radius: 3px;
+        }
+
         .social {
           width: 100%;
           margin-top: 2%;
