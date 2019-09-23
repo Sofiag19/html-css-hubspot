@@ -11,6 +11,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 8;
 }
 
   /* barra1 */
@@ -246,6 +247,10 @@ header {
     clear: both;
   }
 
+  .free:hover {
+    transform: scale(1.01);
+  }
+
     .libro {
       float: left;
       width: 40%;
@@ -310,6 +315,14 @@ header {
       padding: 2% 2%;
       border-radius: 3px;
     }
+
+    .bolle:hover,
+    .ufficio:hover,
+    .connessione:hover {
+      transform: scale(1.01);
+    }
+
+
 
     .ufficio {
       margin-left: 5%;
