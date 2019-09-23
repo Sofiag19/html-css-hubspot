@@ -489,8 +489,8 @@ header {
 
     .numero {
       float: left;
-      width: 30%;
-      margin-right: 10%;
+      width: 20%;
+      margin-right: 20%;
       font-size: 24px;
     }
 
@@ -501,7 +501,6 @@ header {
     .immagini {
       float: left;
       width: 60%;
-      height: 26vh;
     }
 
       .esempi li {
@@ -518,7 +517,7 @@ header {
   /* blocco start */
   .start {
     width: 100%;
-    margin: 0 auto;
+    margin: 2% auto;
   }
 
   .start::after {
@@ -592,14 +591,19 @@ footer {
       list-style-type: none;
     }
 
-      .increase li:first-of-type a{
+      .increase li:first-of-type {
         color: white;
+        font-size: 10px;
       }
 
         .increase li a {
           text-decoration: none;
           font-size: 10px;
           color: rgb(116, 132, 148);
+        }
+
+        .increase li a:hover {
+          color: lightblue;
         }
 
       .margineneg {
