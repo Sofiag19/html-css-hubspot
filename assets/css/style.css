@@ -50,6 +50,11 @@ header {
         width: 20%;
       }
 
+        .elencologo li a {
+          text-decoration: none;
+          color: white;
+        }
+
         .elencologo li img {
           height: 5vh;
           padding-top: 5px;
@@ -75,9 +80,14 @@ header {
         width: 25%;
       }
 
-      #nome {
-        color: white;
-      }
+        .login li a {
+          text-decoration: none;
+          color: black;
+        }
+
+        #nome {
+          color: white;
+        }
 
   /* barra2 */
   .barra2 {
